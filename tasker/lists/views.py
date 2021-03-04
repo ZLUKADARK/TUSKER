@@ -16,3 +16,5 @@ def list_detail(request, list_id):
     return render(request, 'detail.html', {
         'list': user_list
     })
+
+
