@@ -6,7 +6,10 @@ router = routers.DefaultRouter()
 router.register('lists', views.ListViewSet)
 router.register('tasks', views.TaskViewSet)
 
+
+
 app_name = 'lists'
+
 urlpatterns = [
     path('', include(router.urls)),
 ]

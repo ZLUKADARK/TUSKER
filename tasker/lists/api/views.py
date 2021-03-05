@@ -1,7 +1,6 @@
 from rest_framework import viewsets
 from rest_framework.authentication import SessionAuthentication
 from rest_framework.permissions import IsAuthenticated
-
 from .serializers import TaskSerializer, ListSerializer
 from ..models import Task, List
 
