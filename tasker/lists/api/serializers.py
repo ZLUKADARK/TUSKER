@@ -5,7 +5,7 @@ from ..models import List, Task
 class TaskSerializer(serializers.ModelSerializer):
     class Meta:
         model = Task
-        fields = ('title', 'completed', 'parent_list')
+        fields = ('title', 'completed', 'parent_list', 'created')
 
 
 class ListSerializer(serializers.ModelSerializer):
